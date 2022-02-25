@@ -1,0 +1,118 @@
+.box {
+    width :100px;
+    height: 100px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.pb{
+    margin: 20px;
+    border: 1px solid black;
+    width :500px
+}
+.p1{
+    display:flex;
+}
+.p2{
+    display:flex;
+    justify-content:space-between;
+}
+/* width percentages */
+.p3 .green{
+    width:30%;
+}
+.p3 .blue{
+    width: 70%;
+}
+.p4{
+    display:flex;
+}
+.p4 .green{
+    width: 30%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.p4 .blue{
+    width: 70%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.p4 .r{
+    display:flex;
+    width: 40px;
+    height: 40px;
+}
+p6{
+    position: relative;
+}
+
+.pb1{
+    height:220px;
+    width:500px;
+    border:1px solid black;
+    position: relative;
+}
+.yellow{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+}
+.pb1 .green{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pb1 .red{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.pb1 .blue{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.pb1 .yellow{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.p7{
+    height:200px;
+    align-items: center;
+    position: relative;
+    left: 0px;
+}
+.p7 .br{
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+.pb8{
+    height: 150px;
+    width: 60%;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    z-index: 3 ;
+
+}
+
+.py8{
+    width: 60%;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    z-index: 2;
+}
